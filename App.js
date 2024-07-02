@@ -7,9 +7,9 @@ import Users from './src/components/Users';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Title text="merhaba react native" color="red" numberOfLines={1} />
-      <Title text="javascript" color="blue" numberOfLines={2} />
-      <Title text="react" color="green" numberOfLines={3} />
+      <Title text={11} color="red" number={1} isVisible={true} />
+      {/* <Title text="javascript" color="blue" numberOfLines={2} />
+      <Title text="react" color="green" numberOfLines={3} /> */}
       <User data={{ id: 1, name: 'mehmet' }} />
       <Users data={['ahmet', 'mehmet', 'ayşe']} />
     </View>

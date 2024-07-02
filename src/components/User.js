@@ -7,5 +7,12 @@ export default function User(props) {
                 {JSON.stringify(props.data)}
             </Text>
         </View>
-    )
+    );
+};
+
+User.propTypes = {
+    data: PropTypes.shape({
+        id: PropTypes.number,
+        name: PropTypes.string,
+    })
 }
